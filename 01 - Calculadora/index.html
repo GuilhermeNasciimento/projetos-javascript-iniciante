@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculadora">
+
+        <h1>Calculadora</h1>
+
+        <!-- Visor da calculadora -->
+        <input
+            type="text"
+            id="visor"
+            value="0"
+            readonly
+            aria-label="Visor da calculadora"
+        >
+
+        <!-- Botões da calculadora -->
+        <div class="botoes">
+
+            <button class="limpar" data-acao="limpar">C</button>
+            <button data-acao="apagar">⌫</button>
+            <button data-operador="/">÷</button>
+            <button data-operador="*">×</button>
+
+            <button data-numero="7">7</button>
+            <button data-numero="8">8</button>
+            <button data-numero="9">9</button>
+            <button data-operador="-">−</button>
+
+            <button data-numero="4">4</button>
+            <button data-numero="5">5</button>
+            <button data-numero="6">6</button>
+            <button data-operador="+">+</button>
+
+            <button data-numero="1">1</button>
+            <button data-numero="2">2</button>
+            <button data-numero="3">3</button>
+            <button class="igual" data-acao="igual">=</button>
+
+            <button data-numero="0">0</button>
+            <button data-acao="decimal">.</button>
+            <button data-acao="sinal">±</button>
+            <button data-acao="porcentagem">%</button>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
