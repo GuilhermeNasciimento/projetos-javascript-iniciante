@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List | Minhas Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+            <h1>Minhas Tarefas</h1>
+            <p>Organize seu dia de forma simples!</p>
+        </header>
+
+        <!-- Formulário para adicionar tarefas -->
+        <form id="form-tarefa">
+
+            <input
+                type="text"
+                id="input-tarefa"
+                placeholder="Digite uma nova tarefa..."
+                aria-label="Nova tarefa"
+                maxlength="100"
+                required
+            >
+
+            <button type="submit" id="btn-adicionar">
+                + Adicionar
+            </button>
+
+        </form>
+
+        <!-- Filtros -->
+        
+<nav class="filtros" aria-label="Filtrar tarefas">
+
+    <button
+        type="button"
+        class="filtro ativo"
+        data-filtro="todas"
+        aria-pressed="true">
+        Todas
+    </button>
+
+    <button
+        type="button"
+        class="filtro"
+        data-filtro="pendentes"
+        aria-pressed="false">
+        Pendentes
+    </button>
+
+    <button
+        type="button"
+        class="filtro"
+        data-filtro="concluidas"
+        aria-pressed="false">
+        Concluídas
+    </button>
+
+</nav>
+
+
+        <!-- Lista de tarefas -->
+        <section class="secao-tarefas" aria-label="Lista de tarefas">
+
+            <ul id="lista-tarefas">
+                <!-- As tarefas serão inseridas pelo JavaScript -->
+            </ul>
+
+            <p id="mensagem-vazia">
+                Nenhuma tarefa cadastrada.
+            </p>
+
+        </section>
+
+        <!-- Contador -->
+        <footer class="rodape">
+            <p id="contador-tarefas">0 tarefas pendentes</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
