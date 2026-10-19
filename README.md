@@ -24,7 +24,7 @@ Calculadora web com interface responsiva, desenvolvida utilizando HTML, CSS e Ja
 - Funções e operadores matemáticos.
 - Estruturas condicionais.
 
-**Acessar projeto:** [01 — Calculadora](./01-calculadora/)
+**Acessar projeto:** [01 — Calculadora](./01%20-%20Calculadora/)
 
 ---
 
@@ -53,6 +53,23 @@ Aplicação para gerenciamento de tarefas, com operações CRUD e armazenamento 
 **Acessar projeto:** [02 — To-Do List](./02-todo-list/)
 
 ---
+
+### 03 — Controle de Despesas Pessoais
+
+Aplicação web para registrar e acompanhar receitas e despesas, visualizar o saldo total e filtrar transações.
+
+**Funcionalidades:**
+- Cadastro de receitas e despesas.
+- Organização por categorias.
+- Cálculo automático do saldo, das receitas e das despesas.
+- Filtro de transações por tipo.
+- Exclusão de transações.
+- Armazenamento dos dados no navegador com `localStorage`.
+- Interface responsiva.
+
+**Tecnologias:** HTML, CSS e JavaScript.
+
+**Acessar projeto:** [03 — Controle de Despesas](./03-controle-despesas/)
 
 ## Tecnologias utilizadas
 
